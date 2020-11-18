@@ -1,16 +1,16 @@
 #(1)
-# def remove_first_and_last():
-#     listname = []
-#     count = 0
-#     x = int(input("How many values do you want to insert?: "))
-#     while count < x:
-#         value = eval(input("Enter your List value: "))
-#         append = listname.append(value)
-#         count += 1
-#     print(listname[1:x-1])
+def remove_first_and_last():
+    listname = []
+    count = 0
+    x = int(input("How many values do you want to insert?: "))
+    while count < x:
+        value = eval(input("Enter your List value: "))
+        append = listname.append(value)
+        count += 1
+    print(listname[1:x-1])
 
 
-# remove_first_and_last()
+remove_first_and_last()
 
 # (2)
 # def highest_in_list():
@@ -56,17 +56,7 @@
 #     print(listname[0])
 #         return listname[0]
 
-lst = [1,30,40,49,60,70]
 
-def large(param: list):
-    """This function takes in a list and returns the largest"""
-    largest = 0
-    for x in param:
-        if x > largest
-        largest = x
-    return largest
-
-print large(param)
 #work = print(listname[0])
 #print(work)
 
